@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rozha+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+        integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main>
+        <!-- this is Header section -->
+        <header id="header">
+            <i class="bi bi-list" onclick="toggle()"></i>
+            <div class=" header-box">
+                <h2 id="header-head">Omprakash</h2>
+                <div class="header-div" id="mobilemenu">
+                    <ul class="list">
+                        <a href="#hero-section">
+                            <li class="active">Home</li>
+                        </a>
+                        <a href=" #service-section">
+                            <li>Service</li>
+                        </a>
+                        <a href="#gallery-section">
+                            <li>Gallery</li>
+                        </a>
+                        <a href="#about-section">
+                            <li>About me</li>
+                        </a>
+                        <i class="bi bi-x-lg" onclick="toggleout()"></i>
+                    </ul>
+                </div>
+                <a href="#ContactUs"><button id="header-btn">Contact Me</button></a>
+            </div>
+        </header>
+
+        <!-- this is Hero-Section -->
+        <section id="hero-section">
+            <div class="hero-div">
+                <h3 class="hero-h3">Hello 👋</h3>
+                <h2 class="hero-h2">I'm <span class="hero-span">Omprakash Kumar</span>.</h2>
+                <p class="hero-para">I am providing Sketching, pencil color drawing and specialist in face.</p>
+                <a href="#ContactUs"><button class="btn">Contact Me</button></a>
+            </div>
+            <!-- <div class="hero-img"> -->
+            <img src="images/pic.png" alt="hero-img" class="Photo">
+            <!-- </div> -->
+        </section>
+
+
+        <!-- this is Service section.... -->
+        <section id="service-section">
+            <div class="service-div1">
+                <h3 class="service-h3">Service</h3>
+                <p class="service-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                    in eros elementum
+                    tristique.</p>
+            </div>
+            <div class="service-div2">
+                <div class="service-data">
+                    <img src="images/sketching.png" alt="sketching-img" class="service-data-img">
+                    <h4 class="service-data-h4">Sketching</h4>
+                    <p class="service-data-para">Web hosting is like renting space on the internet to store and display
+                        your website It involves
+                        using a powerful computer </p>
+                </div>
+                <div class="service-data">
+                    <img src="images/pencil-drawing.png" alt="pencil-drawing-img" class="service-data-img">
+                    <h4 class="service-data-h4">Pencil color drawing</h4>
+                    <p class="service-data-para">Web hosting is like renting space on the internet to store and display
+                        your website It involves
+                        using a powerful computer </p>
+                </div>
+                <div class="service-data">
+                    <img src="images/face-spelicialist.png" alt="face-spelicialist-img" class="service-data-img">
+                    <h4 class="service-data-h4">Face Spelicialist</h4>
+                    <p class="service-data-para">Web hosting is like renting space on the internet to store and display
+                        your website It involves
+                        using a powerful computer </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- this is Contact Section -->
+        <section id="contact-section">
+            <div class="contact-section-div1">
+                <img src="images/Group-frame.png" alt="frame-img1" class="">
+            </div>
+            <div class="contact-section-div2">
+                <h4 class="contact-section-h4">CONTACT US NOW</h4>
+                <h3 class="contact-section-h3">Want A Sketch for Yourself or Your Loved Ones</h3>
+                <h4 class="contact-section-h4-2">We will create an oustanding sketch for you that makes you happy.</h4>
+                <h4 class="contact-section-h4-2">We will assure you that will love our services.</h4>
+                <h6 class="contact-section-h6">Get in touch with us.</h6>
+                <a href="#ContactUs"><button class="btn">Contact Now</button></a>
+            </div>
+        </section>
+
+        <!-- this is Gallery Section -->
+        <section id="gallery-section">
+            <div class="gallery-section-div1">
+                <h3 class="gallery-section-h3">Gallery</h3>
+                <p class="gallery-section-para">Our Latest creative work samples.</p>
+            </div>
+            <div class="gallery-section-div2">
+                <img src="images/face-spelicialist.png" alt="Gallery-img" class="gallery-img">
+                <img src="images/frame1.png" alt="Gallery-img" class="gallery-img">
+                <img src="images/pencil-drawing.png" alt="Gallery-img" class="gallery-img">
+            </div>
+        </section>
+
+        <!-- this is Ads Section -->
+
+        <section id="Ads-section">
+            <img src="images/ads_img.png" alt="Ads_img" class="Ads-img">
+        </section>
+
+        <!-- this is About section -->
+
+        <section id="about-section">
+            <h3 class="about-section-h3">About me</h3>
+            <div class="about-section-div">
+                <div class="about-section-img-div">
+                    <img src="images/about_img.png" alt="about_img" class="about-img">
+                </div>
+                <div class="about-section-para-div">
+                    <p class="about-section-para">Web hosting is a service that allows individuals and organizations to
+                        make
+                        their websites accessible on the internet. It involves storing website files, databases, and
+                        other
+                        resources on a server that is connected to the internet 24/7. Web hosting providers offer
+                        various
+                        hosting plans to cater to different needs, ranging from shared hosting, where multiple websites
+                        share server resources, to more advanced options like virtual private servers (VPS) and
+                        dedicated
+                        servers.</p>
+                    <a href="#ContactUs"><button class="btn">Contact Me</button></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- this is Contact_Us Section -->
+        <section id="ContactUs">
+            <h3 class="title">Contact Us</h3>
+
+            <div class="contact-box">
+                <form>
+                    <div class="left">
+
+                        <div class="row-box">
+
+                            <input type="text" name="first-name" placeholder="First Name" class="input-box">
+
+
+                            <input type="text" name="last-name" id="" placeholder="Last Name" class="input-box">
+
+                        </div>
+
+                        <div class="row-box">
+
+                            <input type="tel" name="phone_no" id="" placeholder="Mobile no" class="input-box">
+
+
+                            <input type="email" name="mail" id="" placeholder="Email-id" class="input-box">
+
+                        </div>
+
+
+
+                        <div class="row-box">
+                            <select name="services" id="service-select" class="input-box">
+                                <option value="">Services</option>
+                                <option value="Sketching">Sketching</option>
+                                <option value="Pencil color drawing">Pencil color drawing</option>
+                                <option value="Face Spelicialist">Face Spelicialist</option>
+                            </select>
+                        </div>
+
+                        <div class="row-box">
+                            <textarea class="input-box" name="massage" id="" rows="5" cols="40"
+                                placeholder="Message"></textarea>
+                        </div>
+                        <input type="submit" class="btn">
+
+                    </div>
+                </form>
+                <div class="right">
+                    <img src="images/Group-frame.png" alt="Image" class="Contact_Us-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- this is Footer Section -->
+        <!-- this is Footer Section -->
+        <!-- this is Footer Section -->
+
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="title-box">
+                    <h2 class="title">Omprakash Kumar</h2>
+                    <h6 class="sub-title1">Sketching Artist</h6>
+                    <h6 class="sub-title2">Face Specialist</h6>
+
+                </div>
+                <div class="footer-left">
+                    <ul>
+                        <a href="#hero-section">
+                            <li>Home</li>
+                        </a>
+                        <a href="#service-section">
+                            <li>Service</li>
+                        </a>
+                        <a href="#gallery-section">
+                            <li>Gallery</li>
+                        </a>
+                        <a href="#about-section">
+                            <li>About me</li>
+                        </a>
+
+                    </ul>
+                </div>
+
+                <div class="footer-right">
+                    <ul>
+                        <a href="#ContactUs">
+                            <li>Contact Us</li>
+                        </a>
+                        <a href="#">
+                            <li>Create own website</li>
+                        </a>
+                        <a href="#">
+                            <li>Follow Us on</li>
+                        </a>
+
+                        <li>
+                            <div class="icons">
+                                <a href="#"><img src="images/Linkedln.png" alt="Linkedln" class="icon"></a>
+                                <a href="#"><img src="images/fb.png" alt="Facebook" class="icon"></a>
+                                <a href="#"><img src="images/twitter.png" alt="Twitter" class="icon"></a>
+                                <a href="#"><img src="images/insta.png" alt="Instagram" class="icon"></a>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2023 <b>Omprakash Mehta</b>. All Rights Reserved. </p>
+            </div>
+        </footer>
+
+    </main>
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
