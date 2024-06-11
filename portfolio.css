@@ -431,6 +431,14 @@ button {
 #header .list .active {
   color: red;
 }
+
+.bi-arrow-up-circle {
+  position: fixed;
+  bottom: 30px;
+  right: 18px;
+  font-size: 42px;
+  cursor: pointer;
+}
 /*----------Media query------*/
 /*----------Media query------*/
 /*----------Media query------*/

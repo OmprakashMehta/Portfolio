@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
         integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
@@ -33,7 +33,7 @@
             <i class="bi bi-list" onclick="toggle()"></i>
             <div class=" header-box">
                 <h2 id="header-head">Omprakash</h2>
-                <div class="header-div" id="mobilemenu">
+                <div class="header-div animate__animated animate__slideInLeft " id="mobilemenu">
                     <ul class="list">
                         <a href="#hero-section">
                             <li class="active">Home</li>
@@ -70,21 +70,21 @@
 
         <!-- this is Service section.... -->
         <section id="service-section">
-            <div class="service-div1">
+            <div class="service-div1  ">
                 <h3 class="service-h3">Service</h3>
                 <p class="service-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
                     in eros elementum
                     tristique.</p>
             </div>
             <div class="service-div2">
-                <div class="service-data">
+                <div class="service-data  ">
                     <img src="images/sketching.png" alt="sketching-img" class="service-data-img">
                     <h4 class="service-data-h4">Sketching</h4>
                     <p class="service-data-para">Web hosting is like renting space on the internet to store and display
                         your website It involves
                         using a powerful computer </p>
                 </div>
-                <div class="service-data">
+                <div class="service-data animate__animated animate__fadeInUp">
                     <img src="images/pencil-drawing.png" alt="pencil-drawing-img" class="service-data-img">
                     <h4 class="service-data-h4">Pencil color drawing</h4>
                     <p class="service-data-para">Web hosting is like renting space on the internet to store and display
@@ -267,8 +267,9 @@
             </div>
 
             <div class="footer-bottom">
-                <p class="copyright">&copy; 2023 <b>Omprakash</b>. All Rights Reserved. </p>
+                <p class="copyright">&copy;<span id="year"></span> <b>Omprakash Mehta</b>. All Rights Reserved. </p>
             </div>
+            <i class="bi bi-arrow-up-circle" onclick="gototop()"></i>
         </footer>
 
     </main>
